@@ -1,0 +1,25 @@
+
+
+<div class="heading">
+    <img src="https://th.bing.com/th/id/OIP.cUmn7keuv0JRfNfGwusaYQAAAA?rs=1&pid=ImgDetMain" alt=""><h5 class="head" >Dashboard</h5>
+    <!-- Dashboard -->
+  </div>
+  
+  
+  <div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="25px grid">
+      <div fxFlex="25%" fxFlex.xs="100%" *ngFor="let head of['User','Tickets','Device']">
+        
+   <mat-card class="mat-elevation-z4" > 
+      
+      <img mat-card-image src="https://www.thewowstyle.com/wp-content/uploads/2015/01/images-of-nature-4.jpg">
+      <h6 style="text-align: center;">{{head}}</h6> 
+      <mat-card-content>
+        
+      </mat-card-content>
+      
+    </mat-card>
+  
+      </div>
+    </div>
+  </div>

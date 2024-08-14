@@ -1,0 +1,52 @@
+
+.head{
+    padding: 10px;
+    
+}
+
+.heading {
+    display: flex;
+    background: white;
+    /* position: fixed; */
+    border-radius: 5px;
+    margin: 20px;
+    /* top: 20px; */
+    /* margin-top: 20px; */
+    height: 70px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* width:95%; */
+   
+    
+}
+.heading>img{
+    margin: 10px;
+    height: 40px;
+
+}
+
+.content {
+    /* width: 91%; */
+    margin-top: 20px;
+    /* margin: 20px; */
+    margin-inline: 20px;
+    padding: 30px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* margin-bottom: 0%; */
+}
+mat-card{
+    height: 200px;
+    background:white
+
+    
+    /* background-color:; */
+}
+mat-card>img{
+    height: 60px;
+    width: 60px;
+    margin-left: 40%;
+    margin-top:50px ;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
